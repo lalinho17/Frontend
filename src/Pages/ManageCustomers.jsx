@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const ManageCustomers = () => {
   const [customers, setCustomers] = useState([]);
-  const [editCustomer, setEditCustomer] = useState(null);
+  const [setEditCustomer] = useState(null);
   const [showAddForm, setShowAddForm] = useState(false);
   const [newCustomer, setNewCustomer] = useState({
     name: '',
